@@ -32,7 +32,7 @@ export const Header = styled.header`
   padding-top: 100px;
 `;
 
-export const Heading = styled.h1`
+export const Heading = styled.h2`
   ${TypographyPresets.ExtraExtraLarge};
   font-size: 50.67px;
   line-height: 140%;
@@ -65,7 +65,7 @@ export const SettingForm = styled.form`
   }
 `;
 
-export const SettingHeading = styled.h2`
+export const SettingHeading = styled.h3`
   ${TypographyPresets.Large};
   font-size: 18.667px;
   font-weight: ${({ theme }) => theme.typography.weight.bold};
