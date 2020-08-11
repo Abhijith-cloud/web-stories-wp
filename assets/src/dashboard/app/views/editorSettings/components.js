@@ -24,6 +24,7 @@ import styled from 'styled-components';
  */
 import { TypographyPresets, FileUpload } from '../../../components';
 import { visuallyHiddenStyles } from '../../../utils/visuallyHiddenStyles';
+import { Link } from '../../../components/link';
 
 export const Wrapper = styled.div`
   margin: 0 107px;
@@ -80,6 +81,9 @@ export const FormContainer = styled.div`
   }
 `;
 
+export const InlineLink = styled(Link)`
+  margin-left: 0.25em;
+`;
 export const TextInputHelperText = styled.p`
   ${TypographyPresets.Small};
   padding-top: 10px;
